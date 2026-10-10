@@ -1,0 +1,33 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4JZZQNXPX52GN3J36YP2KXW",
+  "strategy": "manual-commit",
+  "branch": "master",
+  "checkpoints_count": 1,
+  "files_touched": [
+    "README.md",
+    "agent/nodes/rank_gaps.py",
+    "app/config/settings.py",
+    "db/repository/run_repository.py",
+    "schemas/run.py",
+    "services/run_service.py",
+    "tests/test_run_flow.py"
+  ],
+  "sessions": [
+    {
+      "metadata": "/0/metadata.json",
+      "transcript": "/0/full.jsonl",
+      "compact_transcript": "/0/transcript.jsonl",
+      "content_hash": "/0/content_hash.txt",
+      "prompt": "/0/prompt.txt"
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 170327,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 8006400,
+    "output_tokens": 39168,
+    "api_call_count": 121,
+    "subagent_tokens_complete": true
+  }
+}
