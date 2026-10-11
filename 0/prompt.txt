@@ -1,0 +1,1 @@
+ive merged and pull the frontend to the backend look for issues abd fix both end to end till it works perfectly
