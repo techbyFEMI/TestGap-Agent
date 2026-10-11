@@ -1,0 +1,5 @@
+Read the README and PRD, then inspect the existing API, service, repository, and LangGraph code. Continue the current architecture to complete the first scan flow: run pytest with coverage on a selected Python project, identify and rank uncovered code, and return a persisted run result through the API. Keep the target project’s source files unchanged. Summarize what you changed.
+
+---
+
+Inspect the current uncommitted diff and find why tests/test_run_flow.py timed out. Do not start background terminals or rerun the test suite. Make at most one focused fix, then stop and explain the cause and the single bounded verification command.
