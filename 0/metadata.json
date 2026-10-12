@@ -1,0 +1,125 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4R7120XW6ZXHCNXE2WRK9KP",
+  "session_id": "01a12219-57d2-7e11-b5f3-b7ce8edffea5",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-12T14:07:30.166933591Z",
+  "branch": "master",
+  "checkpoints_count": 4,
+  "save_step_count": 4,
+  "files_touched": [
+    "README.md"
+  ],
+  "agent": "Codex",
+  "model": "gpt-6-luna",
+  "turn_id": "9f5135416110",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 5775156,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 208467328,
+    "output_tokens": 892859,
+    "api_call_count": 147,
+    "subagent_tokens_complete": true
+  },
+  "session_metrics": {
+    "turn_count": 4
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-12T14:07:29.786641248Z",
+    "agent_lines": 0,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 1,
+    "human_removed": 9,
+    "total_committed": 0,
+    "total_lines_changed": 10,
+    "agent_percentage": 0,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 1662,
+      "user_lines_removed": 111,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".env.example": 4,
+        ".python-version": 1,
+        "README.md": 16,
+        "TESTGAP_FRONTEND_TECHNICAL_SPEC.md": 11,
+        "agent/candidate_metrics.py": 13,
+        "agent/graph.py": 5,
+        "agent/nodes/inspect_repository.py": 7,
+        "agent/nodes/rank_gaps.py": 22,
+        "agent/nodes/run_baseline.py": 127,
+        "agent/nodes/verify_tests.py": 332,
+        "agent/nodes/write_tests.py": 77,
+        "agent/prompts/test_writer.py": 12,
+        "agent/state.py": 27,
+        "agent/telemetry.py": 27,
+        "agent/test_environment.py": 201,
+        "app/config/settings.py": 9,
+        "app/main.py": 10,
+        "db/repository/project_repository.py": 131,
+        "db/repository/run_repository.py": 106,
+        "evidence/cfo-ai-model-brief.md": 2,
+        "evidence/entire/README.md": 9,
+        "evidence/hackathon-technology-status.md": 28,
+        "requirements.txt": 2,
+        "schemas/run.py": 11,
+        "services/run_service.py": 89,
+        "tests/test_rank_gaps.py": 43,
+        "tests/test_run_flow.py": 5,
+        "tests/test_run_repository_postgres.py": 134,
+        "tests/test_telemetry.py": 70,
+        "tests/test_test_cases.py": 15,
+        "tests/test_test_environment.py": 44,
+        "tests/test_verify_tests.py": 50,
+        "tests/test_write_tests.py": 22
+      },
+      "user_removed_per_file": {
+        "README.md": 8,
+        "TESTGAP_FRONTEND_TECHNICAL_SPEC.md": 7,
+        "agent/graph.py": 2,
+        "agent/nodes/inspect_repository.py": 2,
+        "agent/nodes/rank_gaps.py": 7,
+        "agent/nodes/run_baseline.py": 14,
+        "agent/nodes/write_tests.py": 14,
+        "agent/prompts/test_writer.py": 6,
+        "agent/telemetry.py": 6,
+        "app/config/settings.py": 1,
+        "app/main.py": 3,
+        "db/repository/project_repository.py": 6,
+        "db/repository/run_repository.py": 11,
+        "evidence/cfo-ai-model-brief.md": 2,
+        "requirements.txt": 2,
+        "schemas/run.py": 1,
+        "services/run_service.py": 18,
+        "tests/test_run_flow.py": 1
+      }
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 1662,
+      "agent_lines_removed": 111
+    },
+    {
+      "checkpoint_number": 3,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 1662,
+      "agent_lines_removed": 111
+    },
+    {
+      "checkpoint_number": 4,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 1662,
+      "agent_lines_removed": 111
+    }
+  ]
+}
