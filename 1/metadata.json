@@ -1,0 +1,349 @@
+{
+  "cli_version": "0.11.4",
+  "checkpoint_id": "01M4R7120XW6ZXHCNXE2WRK9KP",
+  "session_id": "01a12b61-e215-7723-b8f3-344e35776cc5",
+  "strategy": "manual-commit",
+  "created_at": "2026-10-12T14:07:42.6893443Z",
+  "branch": "master",
+  "checkpoints_count": 21,
+  "save_step_count": 21,
+  "files_touched": [
+    "README.md"
+  ],
+  "agent": "Codex",
+  "model": "gpt-6-luna",
+  "turn_id": "07ba698a7027",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 1573582,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 30463488,
+    "output_tokens": 151985,
+    "api_call_count": 29,
+    "subagent_tokens_complete": true
+  },
+  "session_metrics": {
+    "turn_count": 21
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-10-12T14:07:42.468456496Z",
+    "agent_lines": 0,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 1,
+    "human_removed": 9,
+    "total_committed": 0,
+    "total_lines_changed": 10,
+    "agent_percentage": 0,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 1662,
+      "user_lines_removed": 111,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0,
+      "user_added_per_file": {
+        ".env.example": 4,
+        ".python-version": 1,
+        "README.md": 16,
+        "TESTGAP_FRONTEND_TECHNICAL_SPEC.md": 11,
+        "agent/candidate_metrics.py": 13,
+        "agent/graph.py": 5,
+        "agent/nodes/inspect_repository.py": 7,
+        "agent/nodes/rank_gaps.py": 22,
+        "agent/nodes/run_baseline.py": 127,
+        "agent/nodes/verify_tests.py": 332,
+        "agent/nodes/write_tests.py": 77,
+        "agent/prompts/test_writer.py": 12,
+        "agent/state.py": 27,
+        "agent/telemetry.py": 27,
+        "agent/test_environment.py": 201,
+        "app/config/settings.py": 9,
+        "app/main.py": 10,
+        "db/repository/project_repository.py": 131,
+        "db/repository/run_repository.py": 106,
+        "evidence/cfo-ai-model-brief.md": 2,
+        "evidence/entire/README.md": 9,
+        "evidence/hackathon-technology-status.md": 28,
+        "requirements.txt": 2,
+        "schemas/run.py": 11,
+        "services/run_service.py": 89,
+        "tests/test_rank_gaps.py": 43,
+        "tests/test_run_flow.py": 5,
+        "tests/test_run_repository_postgres.py": 134,
+        "tests/test_telemetry.py": 70,
+        "tests/test_test_cases.py": 15,
+        "tests/test_test_environment.py": 44,
+        "tests/test_verify_tests.py": 50,
+        "tests/test_write_tests.py": 22
+      },
+      "user_removed_per_file": {
+        "README.md": 8,
+        "TESTGAP_FRONTEND_TECHNICAL_SPEC.md": 7,
+        "agent/graph.py": 2,
+        "agent/nodes/inspect_repository.py": 2,
+        "agent/nodes/rank_gaps.py": 7,
+        "agent/nodes/run_baseline.py": 14,
+        "agent/nodes/write_tests.py": 14,
+        "agent/prompts/test_writer.py": 6,
+        "agent/telemetry.py": 6,
+        "app/config/settings.py": 1,
+        "app/main.py": 3,
+        "db/repository/project_repository.py": 6,
+        "db/repository/run_repository.py": 11,
+        "evidence/cfo-ai-model-brief.md": 2,
+        "requirements.txt": 2,
+        "schemas/run.py": 1,
+        "services/run_service.py": 18,
+        "tests/test_run_flow.py": 1
+      }
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 1762,
+      "agent_lines_removed": 120
+    },
+    {
+      "checkpoint_number": 3,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 1762,
+      "agent_lines_removed": 120
+    },
+    {
+      "checkpoint_number": 4,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 1762,
+      "agent_lines_removed": 120
+    },
+    {
+      "checkpoint_number": 5,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 1762,
+      "agent_lines_removed": 120
+    },
+    {
+      "checkpoint_number": 6,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 1764,
+      "agent_lines_removed": 120
+    },
+    {
+      "checkpoint_number": 7,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 1764,
+      "agent_lines_removed": 120
+    },
+    {
+      "checkpoint_number": 8,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 1764,
+      "agent_lines_removed": 120
+    },
+    {
+      "checkpoint_number": 9,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 1764,
+      "agent_lines_removed": 120
+    },
+    {
+      "checkpoint_number": 10,
+      "user_lines_added": 12,
+      "user_lines_removed": 0,
+      "agent_lines_added": 1764,
+      "agent_lines_removed": 120,
+      "user_added_per_file": {
+        "agent/test_environment.py": 8,
+        "tests/test_test_environment.py": 4
+      }
+    },
+    {
+      "checkpoint_number": 11,
+      "user_lines_added": 13,
+      "user_lines_removed": 1,
+      "agent_lines_added": 1764,
+      "agent_lines_removed": 120,
+      "user_added_per_file": {
+        "agent/test_environment.py": 9,
+        "tests/test_test_environment.py": 4
+      },
+      "user_removed_per_file": {
+        "agent/test_environment.py": 1
+      }
+    },
+    {
+      "checkpoint_number": 12,
+      "user_lines_added": 13,
+      "user_lines_removed": 1,
+      "agent_lines_added": 1764,
+      "agent_lines_removed": 120,
+      "user_added_per_file": {
+        "agent/test_environment.py": 9,
+        "tests/test_test_environment.py": 4
+      },
+      "user_removed_per_file": {
+        "agent/test_environment.py": 1
+      }
+    },
+    {
+      "checkpoint_number": 13,
+      "user_lines_added": 13,
+      "user_lines_removed": 1,
+      "agent_lines_added": 1764,
+      "agent_lines_removed": 120,
+      "user_added_per_file": {
+        "agent/test_environment.py": 9,
+        "tests/test_test_environment.py": 4
+      },
+      "user_removed_per_file": {
+        "agent/test_environment.py": 1
+      }
+    },
+    {
+      "checkpoint_number": 14,
+      "user_lines_added": 13,
+      "user_lines_removed": 1,
+      "agent_lines_added": 1764,
+      "agent_lines_removed": 120,
+      "user_added_per_file": {
+        "agent/test_environment.py": 9,
+        "tests/test_test_environment.py": 4
+      },
+      "user_removed_per_file": {
+        "agent/test_environment.py": 1
+      }
+    },
+    {
+      "checkpoint_number": 15,
+      "user_lines_added": 13,
+      "user_lines_removed": 1,
+      "agent_lines_added": 1764,
+      "agent_lines_removed": 120,
+      "user_added_per_file": {
+        "agent/test_environment.py": 9,
+        "tests/test_test_environment.py": 4
+      },
+      "user_removed_per_file": {
+        "agent/test_environment.py": 1
+      }
+    },
+    {
+      "checkpoint_number": 16,
+      "user_lines_added": 13,
+      "user_lines_removed": 1,
+      "agent_lines_added": 1764,
+      "agent_lines_removed": 120,
+      "user_added_per_file": {
+        "agent/test_environment.py": 9,
+        "tests/test_test_environment.py": 4
+      },
+      "user_removed_per_file": {
+        "agent/test_environment.py": 1
+      }
+    },
+    {
+      "checkpoint_number": 17,
+      "user_lines_added": 13,
+      "user_lines_removed": 1,
+      "agent_lines_added": 1864,
+      "agent_lines_removed": 120,
+      "user_added_per_file": {
+        "agent/test_environment.py": 9,
+        "tests/test_test_environment.py": 4
+      },
+      "user_removed_per_file": {
+        "agent/test_environment.py": 1
+      }
+    },
+    {
+      "checkpoint_number": 18,
+      "user_lines_added": 38,
+      "user_lines_removed": 12,
+      "agent_lines_added": 1864,
+      "agent_lines_removed": 120,
+      "user_added_per_file": {
+        "DEMO_VIDEO_SCRIPT.md": 25,
+        "agent/test_environment.py": 9,
+        "tests/test_test_environment.py": 4
+      },
+      "user_removed_per_file": {
+        "DEMO_VIDEO_SCRIPT.md": 11,
+        "agent/test_environment.py": 1
+      }
+    },
+    {
+      "checkpoint_number": 19,
+      "user_lines_added": 38,
+      "user_lines_removed": 12,
+      "agent_lines_added": 1864,
+      "agent_lines_removed": 120,
+      "user_added_per_file": {
+        "DEMO_VIDEO_SCRIPT.md": 25,
+        "agent/test_environment.py": 9,
+        "tests/test_test_environment.py": 4
+      },
+      "user_removed_per_file": {
+        "DEMO_VIDEO_SCRIPT.md": 11,
+        "agent/test_environment.py": 1
+      }
+    },
+    {
+      "checkpoint_number": 20,
+      "user_lines_added": 54,
+      "user_lines_removed": 20,
+      "agent_lines_added": 1864,
+      "agent_lines_removed": 120,
+      "user_added_per_file": {
+        "DEMO_VIDEO_SCRIPT.md": 41,
+        "agent/test_environment.py": 9,
+        "tests/test_test_environment.py": 4
+      },
+      "user_removed_per_file": {
+        "DEMO_VIDEO_SCRIPT.md": 19,
+        "agent/test_environment.py": 1
+      }
+    },
+    {
+      "checkpoint_number": 21,
+      "user_lines_added": 63,
+      "user_lines_removed": 25,
+      "agent_lines_added": 1864,
+      "agent_lines_removed": 120,
+      "user_added_per_file": {
+        "DEMO_VIDEO_SCRIPT.md": 50,
+        "agent/test_environment.py": 9,
+        "tests/test_test_environment.py": 4
+      },
+      "user_removed_per_file": {
+        "DEMO_VIDEO_SCRIPT.md": 24,
+        "agent/test_environment.py": 1
+      }
+    },
+    {
+      "checkpoint_number": 22,
+      "user_lines_added": 63,
+      "user_lines_removed": 25,
+      "agent_lines_added": 1864,
+      "agent_lines_removed": 120,
+      "user_added_per_file": {
+        "DEMO_VIDEO_SCRIPT.md": 50,
+        "agent/test_environment.py": 9,
+        "tests/test_test_environment.py": 4
+      },
+      "user_removed_per_file": {
+        "DEMO_VIDEO_SCRIPT.md": 24,
+        "agent/test_environment.py": 1
+      }
+    }
+  ]
+}
